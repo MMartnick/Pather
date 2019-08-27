@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <edu.fullsail.mgems.cse.pather.matthewmartnick.DrawSurface
+        android:id="@+id/dsField"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+      <!--  <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/gridView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="50dp"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth" /-->
+
+        <!--<solid android:color="#fafbfb" />-->
+        <!--<stroke-->
+            <!--android:width="2dp"-->
+            <!--android:color="#fd0261" ></stroke>-->
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="Reset" />
+
+        <Button
+            android:id="@+id/btnCredits"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="Credits" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
